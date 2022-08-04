@@ -6,6 +6,10 @@ h1 {
     font-size: 50px;
 }
 
+.orange-color {
+    color: orange;
+}
+
 .half-width {
     width: 50%;
 }
@@ -26,12 +30,40 @@ section {
 .width-same {
     width: 33%;
     padding: 10px;
+    margin: 10px
 }
 
 .width-same img {
     width: 33%;
+
 }
 
 .text-centered {
     text-align: center;
+}
+
+.box1 {
+    box-shadow: 5px 5px 10px rgb(187, 127, 127);
+    background-color: rgb(231, 218, 222);
+}
+
+.box2 {
+
+    box-shadow: 5px 5px 10px rgb(187, 127, 127);
+    background-color: rgb(168, 199, 211);
+}
+
+.box3 {
+    background-color: rgb(218, 172, 172);
+    box-shadow: 5px 5px 10px rgb(187, 127, 127);
+}
+
+.img-male {
+    width: 30%;
+}
+
+footer {
+    background-color: black;
+    text-decoration: rgb(199, 42, 42);
+
 }
