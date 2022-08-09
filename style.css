@@ -1,9 +1,25 @@
 body {
     font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+
+.nav-bar {
+    margin-left: 52px;
+    display: block;
+    padding: 5px;
+    background-color: rgb(236, 96, 96);
+
+}
+
+a {
+    display: inline;
+    padding: 14px 16px;
+    width: 10px;
+    height: 40px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .orange-color {
@@ -23,8 +39,9 @@ h1 {
 }
 
 section {
-    margin: 7%;
-    padding: 3%;
+    margin: 5px;
+    padding: 3.5%;
+
 }
 
 .width-same {
@@ -45,6 +62,7 @@ section {
 .box1 {
     box-shadow: 5px 5px 10px rgb(187, 127, 127);
     background-color: rgb(231, 218, 222);
+    border-left: 5px solid;
 }
 
 .box2 {
@@ -66,5 +84,12 @@ footer {
     background-color: aquamarine;
     text-decoration: rgb(199, 42, 42);
     font-style: oblique;
+}
 
+.top-banner {
+    background-image: url(image/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-right: 50px;
+    background-size: 50px;
 }
