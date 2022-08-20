@@ -4,11 +4,20 @@ body {
 }
 
 .nav-bar {
-    margin-left: 52px;
-    display: block;
-    padding: 5px;
-    background-color: rgb(236, 96, 96);
+    background-color: rgba(218, 67, 21, 0.829);
+    height: 40px;
+    padding: 3px;
+    padding-top: 5px;
+}
 
+.nav-container {
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.container {
+    padding: 8%;
 }
 
 a {
@@ -19,11 +28,16 @@ a {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .orange-color {
     color: orange;
+}
+
+.link-button {
+    background-color: rgb(209, 72, 72);
+    height: 5px;
 }
 
 .half-width {
@@ -81,9 +95,12 @@ section {
 }
 
 footer {
-    background-color: aquamarine;
-    text-decoration: rgb(199, 42, 42);
+    background-color: black;
+    text-decoration: white;
     font-style: oblique;
+    text-align: center;
+    padding: 5px;
+    color: white;
 }
 
 .top-banner {
