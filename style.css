@@ -3,6 +3,16 @@ body {
     margin: 0;
 }
 
+p {
+    text-align: justify;
+    font-weight: 100;
+}
+
+.mission-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
 .nav-bar {
     background-color: rgba(218, 67, 21, 0.829);
     height: 40px;
